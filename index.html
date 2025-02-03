@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- barre de titre -->
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/avatar.png">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="/assets/portfolio-logo-png.png" alt="portfolio" width="200px" h>
+            <ul>
+                <li><a href="#">Acceuil</a></li>
+                <li><a href="#apropos">A propos</a></li>
+                <li><a href="#travail">Travail</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+               
+            </ul>
+        </nav>
+
+    </header>
+     <main>
+        <!-- about section -->
+        <main>
+            <!-- À Propos -->
+            <section id="apropos">
+                <!-- Bloc Profil -->
+                <div class="profile">
+                    <h1>CHERIF Issam</h1>
+                    <h2>Développeur Full Stack</h2>
+                    <img src="/assets/image.png" alt="photo de Issam CHERIF" width="200">
+                </div>
+            
+                <!-- Bloc Présentation -->
+                <div class="about-content">
+                    <h2>À propos de moi</h2>
+                    <p>Je suis un développeur web passionné par la création de sites web interactifs et responsives.</p>
+                </div>
+            
+                <!-- Bloc Informations -->
+                <div class="info-block">
+                    <h3>Formation</h3>
+                    <p>Licence en Géologie, reconversion en Développement Web.</p>
+                </div>
+            
+                <div class="info-block">
+                    <h3>Compétences</h3>
+                    <ul>
+                        <li>HTML, CSS, JavaScript (ES6+) Fondamentaux du développement web</li>
+                        <li>React.js Création d'interfaces dynamiques et performantes</li>
+                        <li>JSX - Syntaxe permettant d'écrire du HTML dans JavaScript</li>
+                        <li>Tailwind CSS / Bootstrap / Material UI - Stylisation rapide et moderne</li>
+                        <li>Node.js - Exécution de JavaScript côté serveur</li>
+                        <li>MongoDB avec Mongoose - Base de données NoSQL</li>
+                        <li>Git & GitHub - Gestion de versions</li>
+                        <li>Cartographie thématique : analyse spatiale de données.</li>
+                        
+                    </ul>
+                </div>
+            
+                <div class="info-block">
+                    <h3>Passion</h3>
+                    <p>Passionné par le développement web, je conçois des applications modernes et performantes.</p>
+                    <p>Fort d'une expertise en JavaScript (React, Node.js) et en bases de données MongoDB, je crée des solutions optimales.</p>
+                    <p>J'accorde une grande importance à la performance, la scalabilité et l'accessibilité des applications que je développe.</p>
+                </div>
+            </section>
+            
+        
+            <!-- Travail -->
+            <section id="travail">
+                <h2>Mes travaux !!!!!!</h2>
+                <div class="iframes">
+                    <iframe src="https://gomycode.com/tn/fr/" frameborder="0"></iframe>
+                    <iframe src="https://www.tunisianet.com.tn/" frameborder="0"></iframe>
+                    <iframe src="https://www.geowiki.fr/" frameborder="0"></iframe>
+                    <iframe src="https://www.geojamal.com/" frameborder="0"></iframe>
+                </div>
+            </section>
+        
+            <!-- CV -->
+            <section id="cv">
+                <h2>Mon CV</h2>
+                <p>Téléchargez mon CV en format PDF :</p>
+                <a href="cv.pdf" download="CV_CHERIF_Issam.pdf" class="cv-button">📄 Télécharger mon CV</a>
+            </section>
+        </main>
+     <footer>
+        
+        <div class="contact">
+            
+        <h2>Contact</h2>
+        <section id="contact"></section> 
+            
+            <form action="submit_form.php" method="post">
+                <label for="name" >Nom :</label>
+                <input type="text" id="name" name="name" placeholder="Nom" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" placeholder="adresse e-mail" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Envoyer</button>
+                
+            </form>
+        <p><img src="/assets/Phone-Emoji-PNG_007.png" alt="phone">+216 95 522 540</p>
+        <p><img src="/assets/e-mail_icon.png" alt="e-mail">cherifissam9@gmail.com</p>
+        </div>
+        <div class="social-icons">
+            <a href="https://github.com/samshe531" target="_blank"><img src="/assets/GitHub-icon.png" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/issam-cherif-b6501a22b/" target="_blank"><img src="/assets/LinkedIn-icon-4.png" alt="lien LinkedIn"></a>
+            <a href="https://www.facebook.com/1issam.ch1/" target="_blank"><img src="/assets/facebook-icon.png" alt="lien  Facebook"></a>
+            <a href="#" target="_blank"><img src="/assets/Instagram-icon.png" alt="lien Instagram"></a>
+            
+        </div>
+        
+        <p>&copy; 2025 Mon Portfolio - Tous droits réservés</p>
+    </footer>
+</body>
+</html>
