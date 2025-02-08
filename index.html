@@ -7,13 +7,18 @@
     <link rel="shortcut icon" type="image/x-icon" href="/assets/avatar.png">
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
-            <img src="/assets/portfolio-logo-png.png" alt="portfolio" width="200px" h>
+            <img id="logo"
+            src="/assets/portfolio-logo-png.png" 
+            alt="portfolio"  >
             <ul>
-                <li><a href="#">Acceuil</a></li>
+                <li><a href="#">Accueil</a></li>
                 <li><a href="#apropos">A propos</a></li>
                 <li><a href="#travail">Travail</a></li>
                 <li><a href="#cv">CV</a></li>
@@ -32,12 +37,12 @@
                 <div class="profile">
                     <h1>CHERIF Issam</h1>
                     <h2>Développeur Full Stack</h2>
-                    <img src="/assets/image.png" alt="photo de Issam CHERIF" width="200">
+                    <img src="/assets/image1.png" alt="photo de Issam CHERIF" width="200">
                 </div>
             
                 <!-- Bloc Présentation -->
                 <div class="about-content">
-                    <h2>À propos de moi</h2>
+                
                     <p>Je suis un développeur web passionné par la création de sites web interactifs et responsives.</p>
                 </div>
             
@@ -86,7 +91,7 @@
             <section id="cv">
                 <h2>Mon CV</h2>
                 <p>Téléchargez mon CV en format PDF :</p>
-                <a href="cv.pdf" download="CV_CHERIF_Issam.pdf" class="cv-button">📄 Télécharger mon CV</a>
+                <button class="cv-button" href="cv.pdf" download="CV_CHERIF_Issam.pdf" > Télécharger mon CV</button>
             </section>
         </main>
      <footer>
@@ -120,7 +125,7 @@
             
         </div>
         
-        <p>&copy; 2025 Mon Portfolio - Tous droits réservés</p>
+        <p>&copy; 2025 Cherif Issam - Tous droits réservés</p>
     </footer>
 </body>
 </html>
